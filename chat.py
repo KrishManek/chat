@@ -1,6 +1,10 @@
 import streamlit as st
-import pandas as pd
+import subprocess
+# Install pyperclip
+subprocess.call(['pip', 'install', 'pyperclip'])
+# Now you can import pyperclip
 import pyperclip
+import pandas as pd
 from chat_module import predict_disease_from_symptom
 
 # Load the dataset into a pandas dataframe
