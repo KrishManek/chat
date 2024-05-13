@@ -1,6 +1,6 @@
 import streamlit as st
 # Install pyperclip
-st.system('pip install pyperclip')
+# st.system('pip install pyperclip')
 # Now you can import pyperclip
 import pyperclip
 import pandas as pd
